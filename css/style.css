@@ -54,3 +54,33 @@ h1 {
 .glow {
   background-color: yellow;
 }
+
+/* Table */
+table {
+  font-size: 16px;
+  border-collapse: collapse;
+  padding: auto;
+}
+
+thead {
+  height: 10px;
+  font-weight: bold;
+}
+
+th {
+  text-align: left;
+  background-color: #20a9e5;
+  color: white;
+  height: 10px;
+}
+
+td {
+  width: 30%;
+  height: 30px;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.odd {
+  background-color: #b1e5f2;
+}
