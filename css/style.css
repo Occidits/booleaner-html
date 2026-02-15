@@ -1,0 +1,56 @@
+/* CSS Reset */
+body {
+  margin: 0;
+}
+
+ul,
+li {
+  padding: 0 15px;
+}
+
+li::marker {
+  padding-left: 0;
+}
+
+/* Basic Style */
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* Header Style */
+header {
+  background-color: #4ea0ff;
+  background-image: url("../img/pattern.png");
+  background-size: contain;
+  height: 100px;
+}
+
+/* Title Style */
+h1 {
+  font-size: 38px;
+  margin-bottom: 0;
+}
+
+.title-info {
+  margin: 0;
+  color: #808080;
+}
+
+.author {
+  color: #3cb4e7;
+}
+
+.date {
+  font-size: smaller;
+}
+
+.img-description {
+  margin: 0;
+  font-size: smaller;
+}
+
+/* Main content */
+.glow {
+  background-color: yellow;
+}
